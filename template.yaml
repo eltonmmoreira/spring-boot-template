@@ -2,12 +2,12 @@ apiVersion: backstage.io/v1alpha1
 kind: Template
 metadata:
   name: springboot-custom-template
-    title: Spring Boot Service
-    description: Create a simple microservice using Spring Boot Java
-    tags:
-      - recommended
-      - java
-      - spring-boot
+  title: Spring Boot Service
+  description: Create a simple microservice using Spring Boot Java
+  tags:
+    - recommended
+    - java
+    - spring-boot
 spec:
   owner: service@example.com
   templater: cookiecutter
