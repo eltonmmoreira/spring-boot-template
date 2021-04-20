@@ -1,0 +1,4 @@
+spring:
+  application:
+    name: {{cookiecutter.component_id}}
+    port: {{cookiecutter.http_port}}
