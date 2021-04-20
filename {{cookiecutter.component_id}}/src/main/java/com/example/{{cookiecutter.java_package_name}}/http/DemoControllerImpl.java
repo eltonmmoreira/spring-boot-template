@@ -12,3 +12,5 @@ public class DemoControllerImpl implements DemoController {
   public ResponseEntity<String> hello(String param) {
     return ResponseEntity.ok("Hello " + param);
   }
+
+}
