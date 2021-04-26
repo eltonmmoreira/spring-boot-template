@@ -12,3 +12,17 @@ spec:
   type: service
   lifecycle: experimental
   owner: {{cookiecutter.owner | jsonify}}
+  ---
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: "test-springboot-backstage-api"
+  description: springboot test app
+spec:
+  type: openapi
+  lifecycle: experimental
+  owner: user:guest
+  definition: 
+    $text: http://kong/{{path}}/v3/api-docs
+
