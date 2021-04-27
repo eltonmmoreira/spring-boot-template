@@ -12,6 +12,8 @@ spec:
   type: service
   lifecycle: experimental
   owner: {{cookiecutter.owner | jsonify}}
+  providesApis:
+    - {{cookiecutter.component_id | jsonify}}
 
 ---
 
