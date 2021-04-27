@@ -30,7 +30,7 @@ spec:
       title: OpenAPI definition
       version: v0
     servers:
-    - url: {{cookiecutter.path}}
+    - url: http://kong/{{cookiecutter.path}}/api-documentation
       description: Generated server url
     paths:
       /demo:
