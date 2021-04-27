@@ -24,7 +24,7 @@ spec:
   type: openapi
   lifecycle: experimental
   owner: user:guest
-  definition: 
+  definition: |
     openapi: 3.0.1
     info:
       title: OpenAPI definition
